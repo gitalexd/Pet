@@ -1,4 +1,7 @@
-<form action="re.php" enctype="multipart/form-data"
+<h1>Реверс строки</h1>
+<p>Добрый день! Вашему вниманию представляется алгоритм реверса строки.</p>
+<p>Если в форму вести 1234, то на экране выведется 4321</p>
+<form action="index.php" enctype="multipart/form-data"
       method="post">
     <input type="text" name="str" id="str" placeholder="введите число"><br>
     <input type="submit" value="Отправить">
