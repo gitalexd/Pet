@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b1e40f-f2d8-4eaa-935a-2618becd56da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sa.pets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/simple_numbers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arr_sort.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/arr_sort/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/re.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/revers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_numbers.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_numbers2.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/simple_numbers/v2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pets/php/numbers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pets/php/numbers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pets/php/valid/thisForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/pets/php/valid/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +26,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\sa.pets\pets\php" />
+      <recent name="C:\OSPanel\domains\sa.pets\pets" />
       <recent name="C:\OSPanel\domains\sa.pets\php\simple_numbers" />
     </key>
   </component>
@@ -58,11 +59,30 @@
       <option name="presentableId" value="Default" />
       <updated>1595417245357</updated>
       <workItem from="1595417246922" duration="1270000" />
-      <workItem from="1595419254625" duration="4295000" />
+      <workItem from="1595419254625" duration="7958000" />
+      <workItem from="1595524317335" duration="5460000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="194" y="54" width="711" height="464" key="#Deployment" timestamp="1595424072029">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="194" y="54" width="711" height="464" key="#Deployment/0.0.1280.680@0.0.1280.680" timestamp="1595424072029" />
+    <state x="316" y="22" key="#Options" timestamp="1595425404677">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="316" y="22" key="#Options/0.0.1280.680@0.0.1280.680" timestamp="1595425404677" />
+    <state x="476" y="264" key="NewPhpFileDialog" timestamp="1595526382165">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="476" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1595526382165" />
+    <state x="149" y="0" key="SettingsEditor" timestamp="1595424125756">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="149" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1595424125756" />
   </component>
 </project>
