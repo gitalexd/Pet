@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 70px;
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+<h3>Добрый день! Вашему вниманию представлена программа js, в которой при нажатие на кнопку ОК меняется цвет квадратика,
+    расположенного выше</h3>
+
+<div style="background: darkcyan" id="red"></div>
+<button data-color="red" onclick="SetColor(this)">OK</button>
+<div style="background: khaki" id="pink"></div>
+<button data-color="pink" onclick="SetColor(this)">OK</button>
+<div style="background: yellowgreen" id="green"></div>
+<button data-color="green" onclick="SetColor(this)">OK</button>
+</body>
+<script>
+    function SetColor(e) {
+        let color = e.dataset.color;
+        let poluzhaem = document.getElementById(color);
+        poluzhaem.style.background = color;
+
+    }
+</script>
+</html>

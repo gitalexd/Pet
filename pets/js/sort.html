@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <script>
+    var m = [7, 8, 3, 10, 5, 1, 4, 9, 2, 6];
+
+    var count = m.length-1;
+
+    for (var i = 0; i < count; i++) {
+        for (var j = 0; j < count-i; j++) {
+
+            if (m[j] > m[j+1]) {
+                var max = m[j];
+                m[j] = m[j+1];
+                m[j+1] = max;
+            }
+        }
+    }
+
+    document.write(m);
+    console.log(m);
+
+    </script>
+
+</head>
+<body>
+<form action="sort.html" enctype="multipart/form-data"
+      method="post">
+    <input type="text" name="str" id="str" placeholder="введите число"><br>
+    <input class="btn btn-primary" type="submit" value="Сортировать">
+
+</form>
+
+</body>
+</html>

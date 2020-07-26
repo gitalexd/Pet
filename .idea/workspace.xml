@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b1e40f-f2d8-4eaa-935a-2618becd56da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pets/php/numbers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pets/php/numbers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pets/php/valid/thisForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/pets/php/valid/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +11,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +29,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -60,7 +66,8 @@
       <updated>1595417245357</updated>
       <workItem from="1595417246922" duration="1270000" />
       <workItem from="1595419254625" duration="7958000" />
-      <workItem from="1595524317335" duration="5460000" />
+      <workItem from="1595524317335" duration="9588000" />
+      <workItem from="1595757033729" duration="5447000" />
     </task>
     <servers />
   </component>
