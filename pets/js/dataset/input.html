@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="sales">Купи меня!
+    <button onclick="alert('test');">Click me</button>
+</div>
+<script>
+    var sales_div = document.getElementById("sales");
+    function buy(){
+        sales.innerHTML = 'Спасибо за покупку! <input type="button" value="Отменить покупку" onclick="cancel()" />';
+    }
+    function cancel(){
+        sales.innerHTML = 'Купи меня! <input type="button" value="Купить" onclick="buy()" />';
+    }
+</script>
+</body>
+</html>
+

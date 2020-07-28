@@ -1,3 +1,6 @@
+<h1>  Валидация полей</h1>
+<p>Добрый день! Вашему вниманию представляется демонстрация работы валидации полей.
+Если хоть одно поле не запонено, то выведется ошибка</p>
 <form action="index.php" method="get">
     <input type="text" name="field1" placeholder="field1">
     <input type="text" name="field2" placeholder="field2">

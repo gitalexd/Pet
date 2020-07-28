@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
+
+</head>
+<body>
+<h1>Вывод текста внутри input</h1>
+<p>Добрый день! Вашему вниманию представляем программу, в которой при нажатии на кнопку на экран  выводится сообщение,
+    в котором будет содержаться текст находящийся внутри элемента input
+</p>
+<label for="example">Вариант 1</label><br>
+<input type="text" id="example" value="example text">
+<button onclick="alert(document.getElementById('example').value)">get Text</button>
+<br><br>
+<label for="example2">Вариант 2, декомпозированный</label><br>
+<input type="text" id="example2" value="example2 text">
+<!--Этап 0. Нажатием на кнопку вызываем функцию getText и передаем в неё параметр с текстом = "example2"-->
+<button onclick="getText('example2')">get Text2</button>
+<script>
+    function getText(inputId){
+        // 1 этап. Получим элемент по его ID:
+        let inputElement = document.getElementById(inputId);
+        // 2 этап. Получим содержимое аттрибута value у элемента:
+        let valueContent = inputElement.value;
+        // 3 этап. Тут мы можем делать с этим текстом все что угодно, например вывести на экран:
+        alert(valueContent);
+    }
+</script>
+
+</body>
+</html>
